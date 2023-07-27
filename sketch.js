@@ -26,7 +26,7 @@ function preload() {
 }
 
 function setup() {
-    let cnv = createCanvas(400, 600);
+    let cnv = createCanvas(600, 700);
     cnv.id('gameCanvas');  // Assign an id to the canvas
     bird = new Bird();
     obstacles.push(new Obstacle());
@@ -64,16 +64,15 @@ function draw() {
         }
     } else {
         fill(255);
-        textSize(20);
+        textSize(18);
         textAlign(CENTER, CENTER);
-        text("கண்ணா,நீ அவுட்டு கண்ணா..", width / 2, height / 4);
-
+        text("எப்படி இருந்த நான்,இப்படி ஆயிட்டேன்.", width / 2, height / 4);
         // Draw the restart button
         fill(200);
         rect(buttonX, buttonY, buttonWidth, buttonHeight);
         fill(0);
         textSize(12);
-        text("மறுபடி விளையாடு கண்ணா.", width / 2, height / 2)
+        text("மறுபடியும் முதல்லா இருந்தா !!", width / 2, height / 2)
  
     }
     fill(255);
@@ -81,9 +80,9 @@ function draw() {
     textAlign(CENTER, CENTER);  // Center align text
     text("Score: " + score, width / 2, 50);  // Position at center of screen
 
-    textSize(20); // Make the following texts smaller
-    text("@senthazalravi", width / 2, 75); // Place the text below the score
-    text("#pepperprogramming", width / 2, 100); // Place the text below "@senthazalravi"
+    textSize(15); // Make the following texts smaller
+    text("@Divya", width / 2, 75); // Place the text below the score
+    text("#pepperprogramming", width / 2, 100); // Place the text below "@Divya"
 
     image(baseImg, 0, height - baseImg.height * 0.75, width, baseImg.height * 0.75);
   // Draw the base image at the bottom of the screen
