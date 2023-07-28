@@ -34,6 +34,7 @@ function setup() {
     buttonHeight = 50;
     buttonX = width / 2 - buttonWidth / 2;
     buttonY = height / 2 - buttonHeight / 2;
+    cnv.touchStarted(handleTouch);
 }
 
 function draw() {
