@@ -26,7 +26,7 @@ function preload() {
 }
 
 function setup() {
-    let cnv = createCanvas(600, 700);
+    let cnv = createCanvas(800, 700);
     cnv.id('gameCanvas');  // Assign an id to the canvas
     bird = new Bird();
     obstacles.push(new Obstacle());
@@ -64,15 +64,15 @@ function draw() {
         }
     } else {
         fill(255);
-        textSize(18);
+        textSize(25);
         textAlign(CENTER, CENTER);
-        text("எப்படி இருந்த நான்,இப்படி ஆயிட்டேன்.", width / 2, height / 4);
+        text("WE ARE VERY LOW OVER THE FOREST NOW.", width / 2, height / 4);
         // Draw the restart button
         fill(200);
         rect(buttonX, buttonY, buttonWidth, buttonHeight);
         fill(0);
-        textSize(12);
-        text("மறுபடியும் முதல்லா இருந்தா !!", width / 2, height / 2)
+        textSize(19);
+        text("Fly Fast!!", width / 2, height / 2)
  
     }
     fill(255);
