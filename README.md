@@ -1,3 +1,3 @@
-# Fappy Bird Becomes Vivek
-Frappy Vivek
+# Fappy Bird Becomes avatar
+Frappy Avatar
 Press SPACEBAR to Start the Game and Keep Going.
