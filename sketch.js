@@ -26,7 +26,7 @@ function preload() {
 }
 
 function setup() {
-    let cnv = createCanvas(800, 700);
+    let cnv = createCanvas(windowWidth, windowHeight);
     cnv.id('gameCanvas');  // Assign an id to the canvas
     bird = new Bird();
     obstacles.push(new Obstacle());
